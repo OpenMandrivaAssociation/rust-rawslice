@@ -1,0 +1,12 @@
+--- rawslice-0.1.0/Cargo.toml	2016-12-15T11:48:10+00:00
++++ rawslice-0.1.0/Cargo.toml	2019-11-26T08:31:29.319458+00:00
+@@ -15,7 +15,7 @@
+ keywords = ["no_std", "raw", "slice", "iterator"]
+ 
+ [dependencies]
+-rawpointer = "0.1"
++rawpointer = "0.2"
+ 
+ [dev-dependencies]
+-quickcheck = { version = "0.4", default-features = false }
++quickcheck = { version = "0.9", default-features = false }
